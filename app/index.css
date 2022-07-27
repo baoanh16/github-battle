@@ -1,0 +1,30 @@
+.instruction-wrap .card .image {
+    padding-top: 100% !important;
+    position: relative !important;
+}
+
+.instruction-wrap .card .image .icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    line-height: 1;
+}
+
+*.dark {
+    background: #646464 !important;
+    color: #fafafa !important;
+}
+
+main.dark {
+    background: #111 !important;
+    color: #fff;
+}
+
+main {
+    padding: 40px 0;
+    min-height: 100vh;
+}
+
